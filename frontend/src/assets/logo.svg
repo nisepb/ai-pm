@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Define gradients -->
+  <defs>
+    <radialGradient id="circleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="lightblue"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Gear teeth (project management element) -->
+  <rect x="47.5" y="15" width="5" height="10" fill="lightblue" transform="rotate(0,50,50)"/>
+  <rect x="47.5" y="15" width="5" height="10" fill="lightblue" transform="rotate(45,50,50)"/>
+  <rect x="47.5" y="15" width="5" height="10" fill="lightblue" transform="rotate(90,50,50)"/>
+  <rect x="47.5" y="15" width="5" height="10" fill="lightblue" transform="rotate(135,50,50)"/>
+  <rect x="47.5" y="15" width="5" height="10" fill="lightblue" transform="rotate(180,50,50)"/>
+  <rect x="47.5" y="15" width="5" height="10" fill="lightblue" transform="rotate(225,50,50)"/>
+  <rect x="47.5" y="15" width="5" height="10" fill="lightblue" transform="rotate(270,50,50)"/>
+  <rect x="47.5" y="15" width="5" height="10" fill="lightblue" transform="rotate(315,50,50)"/>
+
+  <!-- Circle (representing the AI element) -->
+  <circle cx="50" cy="50" r="20" fill="url(#circleGradient)" stroke="lightblue" stroke-width="3"/>
+  
+  <!-- Checkmark inside the circle (representing completion) -->
+  <path d="M42 50 L47 55 L58 45" stroke="white" stroke-width="3" fill="none"/>
+  
+  <!-- Circuit lines (AI element) -->
+  <line x1="50" y1="30" x2="50" y2="10" stroke="lightblue" stroke-width="2"/>
+  <circle cx="50" cy="10" r="3" fill="lightblue"/>
+  
+  <line x1="30" y1="50" x2="10" y2="50" stroke="lightblue" stroke-width="2"/>
+  <circle cx="10" cy="50" r="3" fill="lightblue"/>
+  
+  <line x1="70" y1="50" x2="90" y2="50" stroke="lightblue" stroke-width="2"/>
+  <circle cx="90" cy="50" r="3" fill="lightblue"/>
+</svg>
